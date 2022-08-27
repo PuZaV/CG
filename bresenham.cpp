@@ -32,10 +32,10 @@ int main()
     initgraph(&gdriver, &gmode, (char*)"");
 
     printf("Enter co-ordinates of first point: ");
-    scanf("%d%d", &x0, &y0);
+    scanf("%d%d", &x0, &y0);//10,10
 
     printf("Enter co-ordinates of second point: ");
-    scanf("%d%d", &x1, &y1);
+    scanf("%d%d", &x1, &y1);//50,50
     drawline(x0, y0, x1, y1);
     getch();
     return 0;
