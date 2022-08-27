@@ -33,9 +33,9 @@ int main()
 	int gdriver=DETECT, gmode, x, y, r;
 	initgraph(&gdriver, &gmode, (char*)"");
 	printf("Enter radius of circle: ");
-	scanf("%d", &r);
+	scanf("%d", &r);//100
 	printf("Enter co-ordinates of center(x and y): ");
-	scanf("%d%d", &x, &y);
+	scanf("%d%d", &x, &y);//200,200
 	drawcircle(x, y, r);
 	getch ();
 	return 0;
