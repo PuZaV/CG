@@ -10,9 +10,9 @@ int main( )
 	initgraph(&gd,&gm,(char*)"");
  
 	printf("Enter the value of x1 and y1 : ");
-	scanf("%f%f",&x1,&y1);
+	scanf("%f%f",&x1,&y1);//100,100
 	printf("Enter the value of x2 and y2: ");
-	scanf("%f%f",&x2,&y2);
+	scanf("%f%f",&x2,&y2);//200,200
  
 	dx=abs(x2-x1);
 	dy=abs(y2-y1);
