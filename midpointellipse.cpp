@@ -8,9 +8,9 @@ int main()
 
     initgraph(&g_driver, &g_mode, (char *)"");
 
-    printf("\n\n Enter coordinate x and y = ");//200 200
+    printf("\n\n Enter coordinate x and y = ");
     scanf("%ld%ld", &x_center, &y_center);
-    printf("\n Now enter constants a and b = ");//100 150
+    printf("\n Now enter constants a and b = ");
     scanf("%ld%ld", &a, &b);
     x = 0;
     y = b;
